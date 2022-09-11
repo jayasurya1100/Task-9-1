@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+<div id="full">
+    <div id="dash1">
+    <form action="#">
+        <div class="form-group">
+          <label for="first">First name</label>
+          <input type="text" class="form-control" id="first" placeholder="First name.." value="" min="2" max="24" required>
+         
+        </div><br><br>
+
+        <div class="form-group">
+          <label for="last">Last name</label>
+          <input type="text" class="form-control" id="last" placeholder="Last name.." value="" min="2" max="24" required>
+        </div><br><br>
+
+        <div class="form-group">
+            <label for="add">Address</label>
+            <input type="text" class="form-control" id="add" placeholder="Address" value="" min="6" max="25" required>
+          </div><br><br>
+        
+          
+          <div class="form-group">
+            <label for="pin">Pincode</label>
+            <input type="tel" class="form-control" id="pin" placeholder="Pincode" value="" maxlength="6" required>
+          </div><br><br>
+        
+          <div class="form-group">
+            <label for="gen">Gender</label>
+            <input type="text" class="form-control" id="gen" placeholder="Gender" value="" min="4" max="6" required>
+          </div><br><br>
+        
+          
+          <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" class="form-control" id="state" placeholder="State" value="" min="2" max="16" required>
+          </div><br><br>
+        
+          
+          <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country" placeholder="Country" value="" min="2" max="16" required>
+          </div><br><br>
+          
+        
+        <button type="submit" id="button" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<div id="spans">
+
+<div id="dash3">
+   <div id="one">
+    <span class="spanChild"><b>First name:  </b></span>
+    <span class="firstChild" id="span1"></span>
+</div>
+<div id="two">
+    <span ><b>Last name:  </b></span>
+    <span id="span2"></span>
+</div>
+<div id="three">
+    <span ><b>Address:  </b></span>
+    <span id="span3"></span>
+</div>
+<div id="four">
+    <span ><b>Pincode:  </b></span>
+    <span id="span4"></span>
+</div>
+<div id="five">
+    <span ><b>Gender:  </b></span>
+    <span id="span5"></span>
+</div>
+<div id="six">
+    <span ><b>State:  </b></span>
+    <span id="span6"></span>
+</div>
+<div id="seven">
+    <span ><b>Country:  </b></span>
+    <span id="span7"></span>
+</div>
+</div>   
+
+   
+  
+
+
+</div>
+</div>
+</div>
+</body>
+<script src="./form.js" ></script>
+</html>

@@ -1,0 +1,189 @@
+@media(min-width:240px){
+
+    #full{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    #dash1{
+        background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        background-position:left;
+        padding: 10px;
+       border-left: 11px solid rgba(255, 0, 0, 0.87);
+       border-bottom: 11px solid rgba(255, 0, 0, 0.74);
+       border-top: 11px solid rgb(255, 0, 0);
+        width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+       
+    }
+    #dash3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    
+    #spans{
+        border-top: 11px solid rgba(38, 0, 255, 0.507);
+        border-bottom: 11px solid rgba(38, 0, 255, 0.507);
+        border-right: 11px solid rgba(38, 0, 255, 0.507);
+        
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+    }
+    
+    
+    
+    #dash3{
+        width:1050px ;
+        padding:30px
+    }
+    
+    #dash2{
+        
+        padding:30px
+    }
+    
+    
+    
+    
+    
+    
+    #one{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #two{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #three{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #four{
+        display: inline;
+        padding: 25px;
+    
+    }
+    
+    #five{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #six{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #seven{
+        display: inline;
+        padding: 25px;
+    }
+    
+    #one{
+    transition: 0.6s;
+    background-color: rgba(219, 139, 170, 0);
+    color:  rgb(255, 196, 0);
+    width: 80px;
+    }
+    #one:hover {
+        background-color:rgba(161, 0, 0, 0);
+        
+        transform: scale(2) rotate(-8deg);
+    }
+    
+    #two{
+        transition: 0.6s;
+        background-color: rgba(109, 68, 88, 0);
+        color: rgb(255, 196, 0);
+        width: 80px;
+        }
+        #two:hover {
+            background-color:rgba(161, 0, 0, 0);
+            
+            transform: scale(2) rotate(-8deg);
+        }
+    
+        #three{
+            transition: 0.6s;
+            background-color: rgba(114, 33, 71, 0);
+            color:  rgb(255, 196, 0);
+            width: 80px;
+            }
+            #three:hover {
+                background-color:rgba(161, 0, 0, 0);
+                
+                transform: scale(2) rotate(-8deg);
+            }
+    
+            #four{
+                transition: 0.6s;
+                background-color: rgba(114, 33, 71, 0);
+                color:  rgb(255, 196, 0);
+                width: 80px;
+                }
+                #four:hover {
+                    background-color:rgba(161, 0, 0, 0);
+                    
+                    transform: scale(2) rotate(-8deg);
+                }
+    
+    
+                #five{
+                    transition: 0.6s;
+                    background-color: rgba(114, 33, 71, 0);
+                    color:  rgb(255, 196, 0);
+                    width: 80px;
+                    }
+                    #five:hover {
+                        background-color:rgba(161, 0, 0, 0);
+                        
+                        transform: scale(2) rotate(-8deg);
+                    }
+    
+    
+                    #six{
+                        transition: 0.6s;
+                        background-color: rgba(114, 33, 71, 0);
+                        color:  rgb(255, 196, 0);
+                        width: 80px;
+                        }
+                        #six:hover {
+                            background-color:rgba(161, 0, 0, 0);
+                            
+                            transform: scale(2) rotate(-8deg);
+                        }
+    
+    
+    
+                        #seven{
+                            transition: 0.6s;
+                            background-color: rgba(114, 33, 71, 0);
+                            color:  rgb(255, 196, 0);
+                            width: 80px;
+                            }
+                            #seven:hover {
+                                background-color:rgba(161, 0, 0, 0);
+                                
+                                transform: scale(2) rotate(-8deg);
+                            }
+    
+    
+                        }
+                            .form-group{
+                                color: rgb(255, 123, 0);
+                            }
+                            #button{
+                               border-color: aqua;
+                               border-radius:1vh ;
+                               box-shadow: 0 0px 20px rgb(255, 0, 0);
+                            }
